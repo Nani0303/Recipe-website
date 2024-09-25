@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: grey;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content:center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  word-spacing: 50px;
+}
+
+main {
+  padding: 20px;
+}
+
+.recipe-list {
+  margin-bottom: 40px;
+}
+
+.recipe-item {
+  display: flex;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.recipe-content {
+  flex-grow: 1;
+}
+
+.recipe-content h3 {
+  margin-top: 0;
+}
+
+.view-recipe-btn {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 10px 5px red;
+}
+
+.view-recipe-btn:hover {
+  background-color: rgb(138, 19, 19);
+}
+
+.submit-recipe form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submit-recipe label {
+  display: block;
+  margin-top: 15px;
+}
+
+.submit-recipe input,
+.submit-recipe textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-recipe button {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color:grey;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-recipe button:hover {
+  background-color: grey;
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Recipe Sharing Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li ><a href="#">Recipes</a></li>
+                <li ><a href="#">Submit Recipe</a></li>
+                <li ><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="recipe-list">
+            <h2>Latest Recipes</h2>
+            <div class="recipe-item">
+                <img src="spaghetti.jpg" alt="Spaghetti Carbonara">
+                <div class="recipe-content">
+                    <h3>Spaghetti Carbonara</h3>
+                    <p>A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+            </div>
+            <div class="recipe-item">
+                <img src="chickencurry.jpg" alt="Chicken Curry">
+                <div class="recipe-content">
+                    <h3>Chicken Curry</h3>
+                    <p>A flavorful and spicy chicken dish cooked with various spices and coconut milk.</p>
+                    <button class="view-recipe-btn">View Recipe</button>
+                </div>
+            </div>
+    
+        </section>     
+
+        <section class="submit-recipe">
+            <h2>Submit Your Recipe</h2>
+            <form id="recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" name="recipe-name" required>
+                
+                <label for="recipe-description">Description:</label>
+                <textarea id="recipe-description" name="recipe-description" required></textarea>
+                
+                <label for="recipe-image">Recipe Image URL:</label>
+                <input type="text" id="recipe-image" name="recipe-image" required>
+
+                <label for="recipe-ingredients">Ingredients:</label>
+                <textarea id="recipe-ingredients" name="recipe-ingredients" required></textarea>
+                
+                <label for="recipe-steps">Steps:</label>
+                <textarea id="recipe-steps" name="recipe-steps" required></textarea>
+                
+                <button type="submit">Submit Recipe</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
